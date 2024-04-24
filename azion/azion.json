@@ -1,0 +1,58 @@
+{
+  "name": "gatsby-blog-",
+  "bucket": "gatsby-blog-",
+  "preset": "gatsby",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424171643",
+  "not-first-run": true,
+  "function": {
+    "id": 20764,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20399,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713979262,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713978003,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127180,
+      "origin-key": "bff5ab98-dd02-415a-9ac6-5bcc9508f85a",
+      "name": "gatsby-blog-_single"
+    },
+    {
+      "origin-id": 127182,
+      "origin-key": "2795dc4a-48d8-4299-95ab-84c904705238",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238445,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238446,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238447,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
